@@ -1,0 +1,29 @@
+body {
+    background: #4F5574;
+    color: white;
+    font-family: "Gotham Pro";
+    font-weight: bold;
+}
+
+.banner {
+    background: rgba(0, 0, 0, 0.39);
+    border-radius: 3vh;
+    display: grid
+}
+
+.banner-img {
+    display: block;
+    text-align: center;
+}
+
+.banner-img img {
+    width: 20%;
+    margin: 1.5%;
+}
+
+.desc {
+    width: 50%;
+    text-align: center;
+    margin: 1% auto;
+    font-size: 2.3vh;
+}
