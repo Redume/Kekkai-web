@@ -98,6 +98,15 @@ footer a {
     .desc {
         font-size: 20px;
     }
+
+    footer {
+        flex: 0 0 auto;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.39);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
 }
 
 @media (max-width: 768px) {
@@ -128,11 +137,10 @@ footer a {
     }
 
     footer {
-        flex: 0 0 auto;
-        width: 100%;
         background: rgba(0, 0, 0, 0.39);
-        position: absolute;
-        left: 0;
-        bottom: 0;
+        text-align: center;
+        padding: 1px 0;
+        width: 100%;
+        margin-top: auto;
     }
 }
