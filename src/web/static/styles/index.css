@@ -84,33 +84,35 @@ body {
 }
 
 
-.footer-wrapper {
-      position: relative;
-  min-height: 100%;
-}
-
-footer {
-    flex: 0 0 auto;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.39);
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
-
 
 footer p{
     word-wrap: break-word;
     text-align: center;
 }
 
-footer a:visited {
+footer a {
     color: white
 }
 
 @media (min-width: 768px) {
     .desc {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-wrapper {
+        position: relative;
+        min-height: 100%;
+    }
+
+    footer {
+        flex: 0 0 auto;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.39);
+        position: absolute;
+        left: 0;
+        bottom: 0;
     }
 }
 
@@ -125,12 +127,8 @@ footer a:visited {
         gap: 200px;
     }
 
-     .footer-wrapper {
-          position: relative;
-          min-height: 100%;
-    }
-
     footer {
+        flex: 0 0 auto;
         width: 100%;
         background: rgba(0, 0, 0, 0.39);
         position: absolute;
