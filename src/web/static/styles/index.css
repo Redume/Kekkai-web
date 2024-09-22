@@ -83,19 +83,35 @@ body {
     font-weight: bold;
 }
 
-footer {display: none}
+
+.footer-wrapper {
+      position: relative;
+  min-height: 100%;
+}
+
+footer {
+    flex: 0 0 auto;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.39);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+footer p{
+    word-wrap: break-word;
+    text-align: center;
+}
 
 footer a:visited {
     color: white
 }
 
-
 @media (min-width: 768px) {
     .desc {
         font-size: 20px;
     }
-
-
 }
 
 @media (min-width: 1200px) {
@@ -107,5 +123,18 @@ footer a:visited {
         flex-direction: row;
         align-items: center;
         gap: 200px;
+    }
+
+     .footer-wrapper {
+          position: relative;
+          min-height: 100%;
+    }
+
+    footer {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.39);
+        position: absolute;
+        left: 0;
+        bottom: 0;
     }
 }
