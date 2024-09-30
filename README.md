@@ -28,3 +28,4 @@
 - [`currency-yen.svg`](./src/web/static/assets/icons/currency-yen.svg) - [CC0](https://www.svgrepo.com/svg/471305/currency-yen-circle)
 - [`open-source.svg`](./src/web/static/assets/icons/open-source.svg) - by (Remix Design), [Apache License 2.0](https://www.svgrepo.com/svg/347241/open-source)
 - [`money-cry.webp`](./src/web/static/assets/animation/money-cry.webp) - Sticker for telegram ["The Coin"](https://t.me/addstickers/TheCoin)
+- [`github.svg`](./src/web/static/assets/icons/github.svg) - by (Konstantin Filatov), [Attribution CC BY](https://www.svgrepo.com/svg/521688/github)
