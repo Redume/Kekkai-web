@@ -83,7 +83,37 @@ body {
     font-weight: bold;
 }
 
+.source-code-button-container {
+    display: flex;
+    justify-content: center;
+}
 
+.source-code-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #297BCD;
+    border-radius: 12px;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.source-code-button svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.source-code-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.source-code-button:hover {
+    background-color: #2b6ea3;
+}
 
 footer p{
     word-wrap: break-word;
@@ -113,6 +143,10 @@ footer a {
     .footer-wrapper {
         position: relative;
         min-height: 100%;
+    }
+
+    .source-code-button {
+        margin-bottom: 130px;
     }
 
     footer {
