@@ -115,27 +115,13 @@ body {
     background-color: #2b6ea3;
 }
 
-footer p{
-    word-wrap: break-word;
-    text-align: center;
-}
-
-footer a {
-    color: white
+.source-code-button {
+    margin-bottom: 130px;
 }
 
 @media (min-width: 768px) {
     .desc {
         font-size: 20px;
-    }
-
-    footer {
-        flex: 0 0 auto;
-        width: 100%;
-        background: rgba(0, 0, 0, 0.39);
-        position: absolute;
-        left: 0;
-        bottom: 0;
     }
 }
 
@@ -143,19 +129,6 @@ footer a {
     .footer-wrapper {
         position: relative;
         min-height: 100%;
-    }
-
-    .source-code-button {
-        margin-bottom: 130px;
-    }
-
-    footer {
-        flex: 0 0 auto;
-        width: 100%;
-        background: rgba(0, 0, 0, 0.39);
-        position: absolute;
-        left: 0;
-        bottom: 0;
     }
 }
 
@@ -168,13 +141,5 @@ footer a {
         flex-direction: row;
         align-items: center;
         gap: 200px;
-    }
-
-    footer {
-        background: rgba(0, 0, 0, 0.39);
-        text-align: center;
-        padding: 1px 0;
-        width: 100%;
-        margin-top: auto;
     }
 }
