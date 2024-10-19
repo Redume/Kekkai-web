@@ -1,0 +1,10 @@
+services:
+    kekkai-web:
+        build: .
+        ports:
+            - '9000:9000'
+        restart: unless-stopped
+
+volumes:
+    starlio-web:
+        driver: local
