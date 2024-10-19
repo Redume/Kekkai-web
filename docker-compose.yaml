@@ -6,5 +6,5 @@ services:
         restart: unless-stopped
 
 volumes:
-    starlio-web:
+    kekkai-web:
         driver: local
