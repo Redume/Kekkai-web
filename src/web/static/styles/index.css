@@ -83,12 +83,12 @@ body {
     font-weight: bold;
 }
 
-.source-code-button-container {
+.buttons-container {
     display: flex;
     justify-content: center;
 }
 
-.source-code-button {
+.pr-button {
     display: inline-flex;
     align-items: center;
     background-color: #297BCD;
@@ -100,22 +100,22 @@ body {
     cursor: pointer;
 }
 
-.source-code-button svg {
+.pr-button svg {
     width: 30px;
     height: 30px;
     margin-right: 10px;
 }
 
-.source-code-button a {
+.pr-button a {
     color: white;
     text-decoration: none;
 }
 
-.source-code-button:hover {
+.pr-button:hover {
     background-color: #2b6ea3;
 }
 
-.source-code-button {
+.pr-button {
     margin-bottom: 130px;
 }
 
